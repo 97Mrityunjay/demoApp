@@ -1,0 +1,31 @@
+body{
+    background-color: #1d1d1d;
+}
+header{
+    height: 80vh;
+    margin-top: 50px;
+    /* background-color: #02042B; */
+    background-image: linear-gradient(
+        to right bottom, rgba(219, 11, 94, 0.781), rgba(111, 0, 237, 0.706)),url(cycleman.jpg);
+    background-position: top;
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 38%, 86% 70%, 0 53%, 0 0);
+}
+header h1{
+    padding-top: 14%;
+    padding-left: 20%;
+    color: #ffffff;
+    font-size: 50px; 
+}
+header p{
+    /* background-color: aqua; */
+    padding-bottom:10px;
+    padding-left: 20%;
+    font-size: 20px;
+    color: #ffffff;
+}
+main p{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
